@@ -64,7 +64,7 @@ class FangtianxiaSpider(scrapy.Spider):
             # 解析几居室
             rooms = '/'.join(li.xpath('.//div[@class="house_type clearfix"]/a/text()').extract())       #'3居/4居'
             #销售电话
-            phone_num = ''.join(li.xpath('.//div[@class="tel"]/p//text()').extract()) if response.xpath('//div[@class="tel"]/p/text()') else '暂无销售电话'
+            phone_num = ''.join(li.xpath('.//div[@class="tel"]/p//text()').extract())
             # 解析房屋面积
             area = ''.join(li.xpath('.//div[@class="house_type clearfix"]/text()').extract())
             area = re.sub('\s|－|/','',area)
@@ -96,7 +96,7 @@ class FangtianxiaSpider(scrapy.Spider):
             item['city'] = city_name
             item['house_name'] = house_name
             item['sale'] = sale
-            item['phone_num'] = phone_num
+            item['phone_num'] = phone_num  if phone_num else '暂无电话'
             item['price'] = price
             item['tags'] = tags
             item['rooms'] = rooms
@@ -142,6 +142,8 @@ class FangtianxiaSpider(scrapy.Spider):
                         item['area'] = info
                     elif '年建' in info:
                         item['build_year'] = re.sub("年建", "", info)
+                    if not '年建' in info:
+                        item['build_year'] = '年限待查'
                 #省、市
                 item['province'] = province
                 item['city'] = city_name
