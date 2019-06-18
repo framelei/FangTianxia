@@ -29,7 +29,6 @@ DOWNLOADER_MIDDLEWARES = {
 MONGO_URI = 'localhost'
 MONGO_DB = 'fangtianxia'
 MONGO_USERNAME = 'root'
-# MONGO_PASSWORD = '123456'
 
 #在CentOs下写入数据需要使用账号密码连接
 # MONGO_URI = '139.155.96.221'
@@ -40,7 +39,6 @@ MONGO_PASSWORD = 'Mongo_Lei'
 MYSQL_HOST = 'localhost'
 MYSQL_DATABASE = 'fangtianxia'
 MYSQL_USER = 'root'
-# MYSQL_PASSWORD = '123456'
 
 # MYSQL_HOST = '139.155.96.221'
 MYSQL_PASSWORD = 'Sql_Lei'

@@ -44,7 +44,7 @@ class FangtianxiaSpider(scrapy.Spider):
                     # 构建二手房的url
                     esf_url = prefix + 'esf.fang.com/house/i31/'
                 # meta里面可以携带一些参数信息放到Request里面，在callback函数里面通过response获取
-                yield scrapy.Request(url=newhouse_url,callback=self.parse_newhouse,meta={'info':(province,city_name)})
+                # yield scrapy.Request(url=newhouse_url,callback=self.parse_newhouse,meta={'info':(province,city_name)})
                 yield scrapy.Request(url=esf_url,callback=self.parse_esf,meta={'info':(province,city_name)})
 
 
@@ -142,8 +142,7 @@ class FangtianxiaSpider(scrapy.Spider):
                         item['area'] = info
                     elif '年建' in info:
                         item['build_year'] = re.sub("年建", "", info)
-                    if not '年建' in info:
-                        item['build_year'] = '年限待查'
+
                 #省、市
                 item['province'] = province
                 item['city'] = city_name
@@ -154,6 +153,8 @@ class FangtianxiaSpider(scrapy.Spider):
                 #联系人
                 item['contacts'] = dl.xpath('.//p[@class="tel_shop"]/span[@class="people_name"]/a/text()').extract_first() if dl.xpath('.//p[@class="tel_shop"]/span[@class="people_name"]/a/text()') else '暂无联系人'
                 #地址
+                a = dl.xpath('.//p[@class="add_shop"]/span/text()').extract()
+                print(a)
                 item['address'] = dl.xpath('.//p[@class="add_shop"]/span/text()').extract_first()
                 #房屋卖点
                 item['tags'] = '/'.join(dl.xpath('.//dd/p[3]/span/text()').extract()) if response.xpath('.//dd/p[3]/span/text()') else '暂无卖点'
