@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7fcc673-49c9-4b53-9671-f6518ab80e2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fang/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/fang/items.py" afterDir="false" />
-    </list>
+    <list default="true" id="e7fcc673-49c9-4b53-9671-f6518ab80e2e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +10,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FangTianxai$main.coverage" NAME="main Coverage Results" MODIFIED="1560913571846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FangTianxia$main.coverage" NAME="main Coverage Results" MODIFIED="1560929404049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fang$main.coverage" NAME="main Coverage Results" MODIFIED="1557983974810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fang$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1557983587931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fang" />
   </component>
@@ -80,14 +78,22 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-368710007">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fang/spiders/fangtianxia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2750">
-              <caret line="47" column="108" lean-forward="true" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
+            <state relative-caret-position="511">
+              <caret line="180" column="42" lean-forward="true" selection-start-line="4" selection-end-line="180" selection-end-column="42" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -122,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fang/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-500">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="250">
+              <caret line="19" column="9" lean-forward="true" selection-end-line="60" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -137,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/Python3.6/Anaconda3/Lib/site-packages/pymongo/mongo_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="488" column="23" lean-forward="true" selection-start-line="487" selection-start-column="6" selection-end-line="488" selection-end-column="23" />
+            <state relative-caret-position="11200">
+              <caret line="488" column="23" selection-start-line="487" selection-start-column="6" selection-end-line="488" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -146,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fang/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="150">
               <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
               <folding>
                 <element signature="e#238#1900#0" />
@@ -159,8 +165,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fang/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1013">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="2000">
+              <caret line="94" selection-end-line="94" selection-end-column="49" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
                 <element signature="e#99#673#0" />
@@ -169,11 +175,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fang/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -237,17 +243,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="FangTianxai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FangTianxai" type="462c0819:PsiDirectoryNode" />
+              <item name="FangTianxia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FangTianxia" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FangTianxai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FangTianxai" type="462c0819:PsiDirectoryNode" />
+              <item name="FangTianxia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FangTianxia" type="462c0819:PsiDirectoryNode" />
               <item name="fang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FangTianxai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FangTianxai" type="462c0819:PsiDirectoryNode" />
+              <item name="FangTianxia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FangTianxia" type="462c0819:PsiDirectoryNode" />
               <item name="fang" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -501,14 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fang/middlewares.py">
+    <entry file="file://D:/Python3.6/Anaconda3/Lib/site-packages/pymongo/mongo_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
-          <folding>
-            <element signature="e#238#1900#0" />
-            <element signature="e#1947#3590#0" />
-          </folding>
+        <state relative-caret-position="11200">
+          <caret line="488" column="23" selection-start-line="487" selection-start-column="6" selection-end-line="488" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -519,34 +521,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fang/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python3.6/Anaconda3/Lib/site-packages/pymongo/mongo_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="488" column="23" lean-forward="true" selection-start-line="487" selection-start-column="6" selection-end-line="488" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fang/spiders/fangtianxia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2750">
-          <caret line="47" column="108" lean-forward="true" selection-start-line="47" selection-start-column="108" selection-end-line="47" selection-end-column="108" />
+        <state relative-caret-position="511">
+          <caret line="180" column="42" lean-forward="true" selection-start-line="4" selection-end-line="180" selection-end-column="42" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fang/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="9" lean-forward="true" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fang/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <folding>
+            <element signature="e#238#1900#0" />
+            <element signature="e#1947#3590#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fang/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="2000">
+          <caret line="94" selection-end-line="94" selection-end-column="49" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
             <element signature="e#99#673#0" />
@@ -554,13 +563,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fang/items.py">
+    <entry file="file://$PROJECT_DIR$/fang/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>
