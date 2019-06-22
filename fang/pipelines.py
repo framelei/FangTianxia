@@ -93,3 +93,41 @@ class MysqlTwistedPipline(object):
         values = ','.join(['%s']*len(data))
         sql = 'insert into %s(%s) value(%s)'%(item.collection,keys,values)		#数据库表名从items.py	详见P545
         cursor.execute(sql, tuple(data.values()))
+
+
+from openpyxl import Workbook
+
+class ExcelPipline(object):
+    def __init__(self):
+        # 类实例化
+        self.wbook = Workbook()
+        # 激活工作表
+        self.wsheet = self.wbook.active
+        #设置表头
+        self.wsheet.append(['省份','城市','小区名字','是否开盘','销售电话','每平米价格',
+                        '房屋卖点','几居室','面积','地址','房天下详情url'])
+
+    def process_item(self, item, spider):
+        if item.collection == 'newhouseitem':
+            # 把数据的每一项整理出来
+            data = [item['province'],item['city'],item['house_name'],item['sale'],item['phone_num'],item['price'],
+                    item['tags'],item['rooms'],item['area'],item['address'],item['origin_url']]
+            # 将数据以行的形式添加到xlsx
+            self.wsheet.append(data)
+            #自定义文件位置、标题
+            self.wbook.save('F:\\newhouseitem.xlsx')
+        return item
+
+
+
+
+
+
+
+
+
+
+
+
+
+
