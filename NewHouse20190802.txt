@@ -184,3 +184,424 @@ twisted.internet.error.TimeoutError: User timeout caused connection failure: Get
 ['fang.pipelines.MysqlTwistedPipline']
 2019-08-02 15:41:57 [scrapy.core.engine] INFO: Spider opened
 2019-08-02 15:41:57 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:22:48 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:22:48 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:22:48 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:22:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:22:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:22:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:22:48 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:22:48 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:22:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:24:11 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:24:11 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:24:11 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:24:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:24:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:24:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:24:11 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:24:11 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:24:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:25:30 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:25:30 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:25:30 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:25:30 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:25:30 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:25:30 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:25:30 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:25:30 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:25:30 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:26:37 [scrapy.extensions.logstats] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:27:53 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:27:53 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:27:53 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:27:53 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:27:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:27:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:27:53 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:27:53 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:27:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:28:57 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:28:57 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:28:57 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:28:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:28:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:28:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:28:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:28:58 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:28:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:30:06 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:30:06 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:30:06 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:30:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:30:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:30:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:30:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:30:07 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:30:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:31:33 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:31:33 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:31:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:31:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:31:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:31:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:31:34 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:31:34 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:31:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:51:08 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:51:08 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:51:08 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:51:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:51:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.Captcha_Middleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:51:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:51:09 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:51:09 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:51:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:52:22 [scrapy.extensions.logstats] INFO: Crawled 4 pages (at 4 pages/min), scraped 8 items (at 8 items/min)
+2019-08-02 16:53:27 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:53:27 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:53:27 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:53:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:53:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.Captcha_Middleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:53:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:53:27 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:53:27 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:53:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 16:55:31 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 16:55:31 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 16:55:31 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 16:55:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 16:55:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.Captcha_Middleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 16:55:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 16:55:31 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 16:55:31 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 16:55:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 17:02:05 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 17:02:05 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 17:02:05 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 17:02:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 17:02:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.Captcha_Middleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 17:02:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 17:02:06 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 17:02:06 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 17:02:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 17:04:07 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 17:04:07 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 17:04:07 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 17:04:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 17:04:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.Captcha_Middleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 17:04:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 17:04:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 17:04:07 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 17:04:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 17:05:11 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: fang)
+2019-08-02 17:05:11 [scrapy.utils.log] INFO: Versions: lxml 3.7.2.0, libxml2 2.9.4, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17763-SP0
+2019-08-02 17:05:11 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'fang', 'DOWNLOAD_DELAY': 0.1, 'DOWNLOAD_TIMEOUT': 10, 'LOG_FILE': 'NewHouse20190802.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'fang.spiders', 'RETRY_TIMES': 3, 'SPIDER_MODULES': ['fang.spiders']}
+2019-08-02 17:05:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-08-02 17:05:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'fang.middlewares.UserAgent',
+ 'fang.middlewares.Captcha_Middleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-08-02 17:05:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-08-02 17:05:12 [scrapy.middleware] INFO: Enabled item pipelines:
+['fang.pipelines.MysqlTwistedPipline']
+2019-08-02 17:05:12 [scrapy.core.engine] INFO: Spider opened
+2019-08-02 17:05:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-08-02 17:05:18 [scrapy.core.scraper] ERROR: Error downloading <GET http://sx.esf.fang.com/house/h316-i31/>
+Traceback (most recent call last):
+  File "D:\Python3.6\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\Python3.6\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "D:\Python3.6\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1362, in returnValue
+    raise _DefGen_Return(val)
+twisted.internet.defer._DefGen_Return: <404 http://sx.esf.fang.com/house/h316-i31/>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python3.6\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "D:\Python3.6\Anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 56, in process_response
+    (six.get_method_self(method).__class__.__name__, type(response))
+AssertionError: Middleware Captcha_Middleware.process_response must return Response or Request, got <class 'NoneType'>

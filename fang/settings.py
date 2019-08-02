@@ -15,15 +15,14 @@ DEFAULT_REQUEST_HEADERS = {
 }
 
 ITEM_PIPELINES = {
-   # 'fang.pipelines.FangPipeline': 300,
    # 'fang.pipelines.MongoPipeline': 400,
     'fang.pipelines.MysqlTwistedPipline': 420,
-   #  'fang.pipelines.ExcelPipline': 440,
 }
 
 DOWNLOADER_MIDDLEWARES = {
     'fang.middlewares.UserAgent': 300,
     'fang.middlewares.ProxyMiddleware': 301,
+    'fang.middlewares.Captcha_Middleware': 302,
 }
 
 # B、建立MongoDB连接
