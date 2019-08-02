@@ -5,7 +5,7 @@ from fang.items import NewHouseItem,ESFHouseItem
 class FangtianxiaSpider(scrapy.Spider):
     name = 'fang'
     allowed_domains = ['fang.com']
-    start_urls = ['http://www.fang.com/SoufunFamily.htm']
+    start_urls = ['https://www.fang.com/SoufunFamily.htm']
 
     def parse(self, response):
         trs = response.xpath('//div[@class="outCont"]//tr')
@@ -35,18 +35,19 @@ class FangtianxiaSpider(scrapy.Spider):
                 prefix = url_module[0]          #'http://bj.'
                 # 北京url特殊，需特殊处理
                 if 'bj' in prefix:
-                    #b91代表第1页，b924代表第24页.esf同理
-                    newhouse_url = 'https://newhouse.fang.com/house/s/b91/'
+                    # b91代表第1页，b924代表第24页.esf同理
+                    # 北京新房 按开盘时间第11页    'https://newhouse.fang.com/house/s/b1saledate-b911/'
+                    newhouse_url = 'https://newhouse.fang.com/house/s/b1saledate-b91/'
                     esf_url = 'https://esf.fang.com/house/i31/'
                 else:
-                # 构建新房的url
-                    newhouse_url = prefix + 'newhouse.fang.com/house/s/b91/'
+                    # 构建新房的url
+                    # 郑州新房 按开盘时间第11页      'https://zz.newhouse.fang.com/house/s/b1saledate-b911/'
+                    newhouse_url = prefix + 'newhouse.fang.com/house/s/b1saledate-b91/'
                     # 构建二手房的url
                     esf_url = prefix + 'esf.fang.com/house/i31/'
                 # meta里面可以携带一些参数信息放到Request里面，在callback函数里面通过response获取
                 yield scrapy.Request(url=newhouse_url,callback=self.parse_newhouse,meta={'info':(province,city_name)})
                 # yield scrapy.Request(url=esf_url,callback=self.parse_esf,meta={'info':(province,city_name)})
-
 
     def parse_newhouse(self,response):
         # 解析新房具体字段
@@ -110,9 +111,9 @@ class FangtianxiaSpider(scrapy.Spider):
             last_url = response.xpath('//ul[@class="clearfix"]/li[@class="fr"]/a[@class="last"]/@href').extract_first()     # '/house/s/b924/'
             #如果某个冷门城市只有一页数据，last_url就不存在，.split('/')出异常
             if last_url:
-                last_page = last_url.split('/')[-2].replace('b9','')
+                last_page = last_url.split('/')[-2].replace('b1saledate-b9','')
                 for i in range(1,int(last_page)+1):
-                    next_url = urljoin(response.url,'/house/s/b9{page}/'.format(page=i))
+                    next_url = urljoin(response.url,'/house/s/b1saledate-b9{page}/'.format(page=str(i)))
                     if next_url:
                         yield scrapy.Request(url=next_url,
                                              callback=self.parse_newhouse,
