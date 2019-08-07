@@ -48,10 +48,10 @@ MYSQL_PASSWORD = 'Sql_Lei'
 PROXY_URL = 'http://129.28.200.147:5557/random'
 
 # E、设置日志级别，保存信息
-LOG_LEVEL = "INFO"
+# LOG_LEVEL = "INFO"
 import datetime
 startDate = datetime.datetime.now().strftime('%Y%m%d')
-LOG_FILE=f"NewHouse{startDate}.txt"
+# LOG_FILE=f"EsfHouse{startDate}.txt"
 
 # F、设置最大等待时间、失败重试次数
 #默认响应时间是180s，长时间不释放会占用一个并发量影响效率
